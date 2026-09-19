@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+	<!--
+	Full Name: Gabriel C. Chua
+	Section: CS-201
+	Activity: Soilitary
+	Date: Aug 20, 2026
+	-->
+	<title>Soilitary</title>
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32 "href="img/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="img/android-chrome-192.png">
+
+</head>
+
+<body>
+	<div id = "container">
+
+		
+		<header>
+			
+			<a href = "index.htm">
+				<img src = "img/Soilitary_logo.png" alt = "Soilitary logo" height = "220" width = "297" class = "logo"/>
+			</a>
+
+			<h1>Soilitary</h1>
+	
+			
+		</header>
+		<div class = "nav-bar">
+		    <nav>
+				<ul>
+					<li><a href = "index.htm">Home</a></li>
+					<li><a href = "aboutus.htm">About Us</a></li>
+					<li><a href = "guides.htm">Guides</a></li>
+					<li><a href = "recipes.htm">Recipes</a></li>
+					<li><a href = "contactus.htm">Contact Us</a></li>
+				</ul>
+		    </nav>
+		</div>
+	
+		<main>
+			<div class="hero tablet-desktop">
+				<img src="img/guides-heroimg.png" alt="An image that says schedule for meeting." />
+			</div>
+
+			<div class="mobile">
+				<h3>Schedule for Meetings</h3>
+				<p>How to Save Money through Planting: MT 8:00am &amp; 4:00pm Online</p>
+				<p>Basics in Planting: WTH 6:00am &amp; 2:00pm Face-to-face</p>
+				<p>Intermediate Skills in Planting: MWF 6:00am &amp; 2:00pm Face-to-face</p>
+			</div>
+			<div class="tablet-desktop">
+				<table>
+					<caption>Schedule for Meetings</caption>
+					<tr>
+						<th>Classes</th>
+						<th>Days</th>
+						<th>Time</th>
+						<th>Modality</th>
+						<th>Room</th>
+					</tr>
+
+					<tr>
+						<td>How to Save Money through Planting</td>
+						<td>Mon Tue</td>
+						<td>8:00am - 4:00pm</td>
+						<td>Online</td>
+						<td>Any appropriate room for an online meeting.</td>
+					</tr>
+
+					<tr>
+						<td>Basics in Planting</td>
+						<td>Wed Thu</td>
+						<td>6:00am - 2:00pm</td>
+						<td>Face-to-face</td>
+						<td>1 and Garden</td>
+					</tr>
+
+					<tr>
+						<td>Intermediate Skills in Planting</td>
+						<td>Mon Wed Fri</td>
+						<td>6:00am - 2:00pm</td>
+						<td>Face-to-face</td>
+						<td>2 and Garden</td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="form">
+				<h2>Answer the form below to join.</h2>
+				<form class="form-grid">
+					<fieldset>
+						<legend>User Information</legend>
+						<label for="first-name">First Name: </label>
+						<input type="text" id="first-name" name="first-name" placeholder="Enter your first name here" required />
+						
+						<label for="last-name">Last Name: </label>
+						<input type="text" id="last-name" name="last-name" placeholder="Enter your last name here" required />
+
+						<label for="email">Email: </label>
+						<input type="email" id="email" name="email" placeholder="Enter your email here" required/>
+
+						<label for="phone">Phone Number: </label>
+						<input type="tel" id="phone" name="phone" placeholder="Enter your phone number here" required/>
+					</fieldset>
+
+					<fieldset>
+						<legend>Additional Information</legend>
+						<p>I would like more information about:</p>
+
+						<label for="tips">
+							<input type="checkbox" id="tips" name="tips" value="tips" />Tips
+						</label>
+
+						<label for="food_recipes">
+							<input type="checkbox" id="food_recipes" name="food_recipes" value="food_recipes"/>Recipes
+						</label>
+
+						<label for="local">
+							<input type="checkbox" id="local" name="local" value="local" />Local Center for Distribution of Seeds
+						</label>
+					</fieldset>
+
+					<fieldset>
+						<legend>Lead Source</legend>
+						<label for="referrer">How did you find out about us?</label>
+						<select name="referrer" id="referrer">
+							<option value="ads">Advertisement</option>
+							<option value="friends">Friends</option>
+							<option value="family">Family</option>
+							<option value="socials">Social Media</option>
+							<option value="others">Others</option>
+						</select>
+
+						<label for="feedback">Give us your feedback:</label>
+						<textarea id="feedback" name="feedback" rows="5" cols="35"></textarea>
+					</fieldset>
+
+					<input type="submit" id="submit" value="submit" class="buttons" />
+				</form>
+			</div>
+		</main>
+	
+		<footer>
+			<p>&copy;Copyright 2026. All rights reserved. Created by Gabriel Chua.</p>
+			<a href = "mailto:soilitary@gmail.com">Soilitary@gmail.com</a>
+		</footer>
+	</div>
+</body>
+</html>
